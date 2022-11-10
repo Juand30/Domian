@@ -12,3 +12,5 @@ let com = ['.com', '.es'];
 const random4 = com[Math.floor(Math.random() * com.length)];
 
 console.log(random+random2+random3+random4);
+
+// bucles for anidados, 4 bucles unop dentro de otro
