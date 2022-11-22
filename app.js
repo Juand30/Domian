@@ -11,6 +11,12 @@ const random3 = noun[Math.floor(Math.random() * noun.length)];
 let com = ['.com', '.es'];
 const random4 = com[Math.floor(Math.random() * com.length)];
 
-console.log(random+random2+random3+random4);
+
+
+for ( var i=0; i < pronoun.length; i++){
+    for(var j = pronoun[i]; j <= adj [i]; j++){
+        console.log (j+ noun[i]);
+    } 
+}
 
 // bucles for anidados, 4 bucles unop dentro de otro
