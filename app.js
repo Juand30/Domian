@@ -1,22 +1,26 @@
 
-let pronoun = ['the','our'];
-const random = pronoun[Math.floor(Math.random() * pronoun.length)];
-
-let adj = ['great', 'big' ];
-const random2 = pronoun[Math.floor(Math.random() * adj.length)];
-
-let noun = ['jogger','racoon'];
-const random3 = noun[Math.floor(Math.random() * noun.length)];
-
-let com = ['.com', '.es'];
-const random4 = com[Math.floor(Math.random() * com.length)];
+let arr1 = ['the','our'];
+let arr2 = ['great', 'big' ];
+let arr3 = ['jogger','racoon'];
+let arr4 = ['.com', '.es', '.net', '.io'];
 
 
-
-for ( var i=0; i < pronoun.length; i++){
-    for(var j = pronoun[i]; j <= adj [i]; j++){
-        console.log (j+ noun[i]);
+for (let i=0; i < arr1.length; i++) {
+    for (let j=0; j < arr2.length; j++) {
+      for (let h=0; h < arr3.length; h++) {
+        for (let k=0; k < arr4.length; k++) {
+            console.log(`${arr1[i]}${arr2[j]}${arr3[h]}${arr4[k]}`);
+        } 
+      } 
     } 
-}
+} 
+
+
+
+
+
+
+
+
 
 // bucles for anidados, 4 bucles unop dentro de otro
